@@ -1,0 +1,46 @@
+-- Show welcome screen
+
+
+Welcome to Part 3 of the practical sessions. This session will be an introduction to Prolog.
+
+This practical will focus on the concepts of unification and backtracking through the use of the Prolog language.
+
+Prolog is a logic programming language that allows us to represent knowledge bases and query the generated database. 
+
+
+You can install either SWI-Prolog or GNU Prolog for these practicals.
+
+-- Show the swipl and gprolog command
+
+In Poliformat the files cars.pl and flights.pl are available and
+contain the knowledge bases that we will use in the exercises to be carried out during the session.
+
+Open a terminal and create a working directory where you will download and edit the programs. Invoke prolog from this directory.
+
+Load a file by using the commands consult, compile or by putting the file name in brackets.
+
+-- Show commands consult, compile and ()
+
+Exercise 1:
+
+Load the program cars using any of the previously shown load instructions, such as using brackets.
+
+-- show code
+
+The listing command is used to review the loaded code. It can also be used to know the definition of a particular predicate.
+
+
+Exercise 2:
+
+Execute the listing command to observe the knowledge base for the predicates model and since.
+
+-- show outputs on each side separated by a vertical line
+
+Important remarks: variables start by uppercase or by the underline symbol.
+
+-- A is variable, ibiza is not
+
+Moreover, a program is made up of a set of facts and rules.
+
+-- show fact and rule
+
